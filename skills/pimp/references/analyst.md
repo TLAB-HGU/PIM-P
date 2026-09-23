@@ -13,6 +13,7 @@ Designer는 brief에 적힌 것만 쓴다. 그러니 brief에 빠진 것은 발�
 - `inventory/full.txt`, `inventory/text/page_NNN.txt` — 페이지별 텍스트
 - `inventory/pages/page-NNN.png` — 페이지 이미지 (Figure·표·수식은 텍스트 추출이 깨지므로 반드시 이미지로 확인)
 - `inventory/inventory.json` — Figure/Table 캡션과 위치
+- `MODE` — `normal` 또는 `easy`. easy면 `easy-mode.md`의 "Analyst 추가 작업"에 따라 §0–§12를 모두 쓴 뒤 §13(쉬운 설명)을 추가한다.
 
 ## 읽는 순서
 

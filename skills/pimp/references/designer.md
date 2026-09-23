@@ -7,6 +7,7 @@
 
 - 내용의 유일한 소스는 `paper_brief.md`다. brief에 없는 내용이 필요하면 brief가 가리키는 페이지를 확인해 brief에 먼저 추가한다.
 - 좋은 리뷰 슬라이드의 기준: 제목만 이어 읽어도 논문 스토리가 되고, 각 장이 하나의 메시지만 전하며, 수식과 그림에는 항상 "읽는 법"이 붙어 있다.
+- **`MODE: easy`면 `easy-mode.md`를 함께 따른다.** 분량(장수), 글자 수 한도, 섹션별 조정, 체크리스트는 easy-mode.md가 이 문서보다 우선한다. 쉬운 표현은 brief §13에서, 사실·수치는 §0–§12에서 가져온다.
 
 ## 1단계: slide_plan.md
 
@@ -112,7 +113,7 @@ QA 렌더러(LibreOffice)는 맑은 고딕이 없어 Noto Sans CJK로 대체하�
 
 ```javascript
 const path = require('path');
-const SKILL_DIR = '/mnt/skills/user/paper-review-slides';   // 이 스킬의 SKILL.md가 있던 실제 경로로 바꿀 것
+const SKILL_DIR = '/mnt/skills/user/pimp';   // 이 스킬의 SKILL.md가 있던 실제 경로로 바꿀 것
 const kit = require(path.join(SKILL_DIR, 'scripts/deck_kit.js'))({ theme: 'teal', short: 'TSMixer (TMLR 2023)', title: 'TSMixer Review' });
 const A = (f) => path.join('/home/claude/review/assets', f);
 

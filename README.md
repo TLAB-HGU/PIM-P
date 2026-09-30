@@ -1,6 +1,8 @@
 # PIM-P
 Generates paper review seminar slides from research papers
 
+PIM-P means : Presentation Instead of Me - the Paper
+
 ## Skill: `pimp`
 
 `skills/pimp/` — 논문 PDF를 정석 논문 리뷰 세미나 발표 자료(.pptx)로 만드는 Claude 스킬.
